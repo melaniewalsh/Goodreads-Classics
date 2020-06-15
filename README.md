@@ -1,5 +1,3 @@
 # The Goodreads Classics
 
-<iframe src="Goodreads-Classics.html"
-    frameborder="0">
-</iframe>
+Explore the [Goodreads Classics here](https://melaniewalsh.github.io/Goodreads-Classics/Goodreads-Classics.html).
