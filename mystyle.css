@@ -1,0 +1,30 @@
+
+body {
+
+  margin: auto;
+  font-family: 'Roboto', sans-serif !important;
+
+}
+
+.bk {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 20px !important;
+}
+
+.bk-root .bk {
+  margin: 0 auto !important;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+}
+
+.content {
+
+  max-width: 700px;
+margin: auto; 
+font-size:20px;
+
+}
+
