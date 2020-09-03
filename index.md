@@ -1,15 +1,8 @@
 # The Goodreads Classics
 
 
-## Goodreads Classics By Category
+## Interactive Data Visualizations
+* [Goodreads Classics By Category](Goodreads-Classics.html)
 
-<iframe src="Goodreads-Classics.html" height="500" width="500"></iframe>
+* [Goodreads Classics By Rating]("Goodreads-Classics-Ratings.html)
 
-You can explore this plot [as its own web page here](Goodreads-Classics.html).
-
-
-## Goodreads Classics By Rating
-
-<iframe src="Goodreads-Classics-Ratings.html" height="500" width="500"></iframe>
-
-You can explore this plot [as its own web page here]("Goodreads-Classics-Ratings.html).
