@@ -14,7 +14,7 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("../data/Goodreads-Topics-By-Book-Cluster.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/melaniewalsh/Goodreads-Classics/master/data/Goodreads-Topics-By-Book-Cluster.csv?token=AE3CF3X647RTUOU5V3IXPSK7MEJOI", function(data) {
 
   // Labels of row and columns -> unique identifier of the column called 'Topics' and 'Classics'
   var myClassics = d3.map(data, function(d){return d.Classics;}).keys()
