@@ -6,3 +6,5 @@
 
 * [Goodreads Classics By Rating](Goodreads-Classics-Ratings.html)
 
+* [Goodreads Classics By Topic (Heatmap)](Goodreads-Classics-Topics.html)
+
