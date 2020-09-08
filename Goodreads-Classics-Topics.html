@@ -3,7 +3,7 @@
 
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="mystyle.css" >
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
 
   <meta charset="utf-8">
 
@@ -15,44 +15,40 @@
 <body>
 
   <h1 class='header'> The Goodreads "Classics" </h1>
-  <h1 class='header'> By Topic Probability </h1>
+  <h1 class='header'> By Topic </h1>
   <p class="content" align="center">
-    
+
     *Hover over each square for more information <br>
 
   </p>
   <br>
 
-  
-  <div  align="center" id="my_dataviz"></div>
+
+  <div align="center" id="my_dataviz"></div>
 
 
   <script src="https://d3js.org/d3.v4.js"></script>
-  
+
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script type="text/javascript" src="js/heatmap.js"></script>
 
 
 
-
-
   <br>
-  <br>
-  <hr>
-  <hr>
-  <br>
-  <div class="content">
+  <div class="about">
     <p align="center"> About This Plot </p>
-    <p> This heatmap represents the probability that Goodreads reviews for a given <a href="https://www.goodreads.com/genres/classics">classic</a> would discuss or contain one of the 30 topics on the left. These topics were produced by topic modeling 120,000 Goodreads reviews of classic books.</p>
+    <p> This heatmap represents the probability that Goodreads reviews for a given <a href="https://www.goodreads.com/genres/classics">classic</a> would discuss or contain one of the 30 topics on the left. These topics were produced by topic
+      modeling 120,000 Goodreads reviews of classic books.</p>
     <p>
       <ul>
         <li>Darker tiles indicate a higher probability of containing the topic.</li>
         <li>Lighter tiles indicate a lower probability of containing the topic.</li>
       </ul>
     </p>
-    <p> Scanning left-to-right for the “School” topic, for example, reveals that <i>To Kill a Mocking Bird</i>, <i>The Great Gatsby</i>, and <i>The Catcher in the Rye</i> have the darkest tiles in this row, which indicates that reviews of these books are most likely to discuss school-related subjects.</p>
+    <p> Scanning left-to-right for the “School” topic, for example, reveals that <i>To Kill a Mocking Bird</i>, <i>The Great Gatsby</i>, and <i>The Catcher in the Rye</i> have the darkest tiles in this row, which indicates that reviews of these
+      books are most likely to discuss school-related subjects.</p>
     <p> Scanning top-to-bottom for <i>Pride and Prejudice</i>, to take another example, reveals darker tiles for the topics “Audiobooks & Adaptations,” “Marriage,” “Re-Readable,” and “Gushing & Loving Language.”</p>
-    
+
     <p>The topic probabilites have been normalized to highlight differences between the books. We check the significance of these results via 95% bootstrapped confidence intervals, and the majority of visible differences are significant.</p>
 
     <p>You can explore more Goodreads classics data visualizations at <a href=https://melaniewalsh.github.io/Goodreads-Classics>https://melaniewalsh.github.io/Goodreads-Classics </a> </p> <br>

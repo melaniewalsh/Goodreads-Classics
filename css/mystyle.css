@@ -27,4 +27,15 @@ margin: auto;
 font-size:20px;
 
 }
+.about {
+  
+  max-width: 700px;
+  margin: auto; 
+  font-size:20px;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  padding: 20px;
+}
+
 
