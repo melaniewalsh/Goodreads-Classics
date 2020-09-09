@@ -1,4 +1,3 @@
-
 ---
 layout: no-sidebar
 ---
