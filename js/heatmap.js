@@ -83,7 +83,7 @@ d3.csv("https://raw.githubusercontent.com/melaniewalsh/Goodreads-Classics/master
     //.attr("class", "word-wrap")
       .html(`<b>Title:</b> <i>${d.Classics}</i> <br> <b>Topic:</b> ${d.Topics} <br>  <b>Topic Probability:</b> ${d3.format(".2f")(d.value)} <br><br><b>Topic Words:</b> ${d['Topic Words']}`)
       .style("left", (d3.mouse(this)[0]+100) + "px")
-      .style("top", (d3.mouse(this)[1]+200) + "px")
+      .style("top", (d3.mouse(this)[1]+100) + "px")
         
       //.style("max-width", "200px")
 	//.style("position", "absolute")
