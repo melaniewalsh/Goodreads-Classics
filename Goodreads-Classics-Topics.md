@@ -2,18 +2,6 @@
 layout: no-sidebar
 ---
 
-<head>
-<html lang="{{ site.lang | default: "en-US" }}">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="mystyle.css">
-
-  <meta charset="utf-8">
-
-  <title>The Goodreads Classics By Topic</title>
-
-</head>
-  
 
   <body>
 
