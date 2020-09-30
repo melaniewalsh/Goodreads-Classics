@@ -2,3 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
+.page-header {
+  background-image: linear-gradient(200deg, #159957, #439b3f, #159957);
+};
+
+.bk-tooltip {
+  font-size: 200px;
+}
+
+iframe {
+  display:block;
+}

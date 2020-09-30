@@ -3,6 +3,7 @@ body {
 
   margin: auto;
   font-family: 'Roboto', sans-serif !important;
+  padding-bottom:40px;
 
 }
 
@@ -14,7 +15,16 @@ body {
 .bk-root .bk {
   margin: 0 auto !important;
 }
-
+.about {
+  
+  max-width: 700px;
+  margin: auto; 
+  font-size:20px;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  padding: 20px;
+}
 .header {
   font-size: 50px;
   text-align: center;
@@ -27,15 +37,6 @@ margin: auto;
 font-size:20px;
 
 }
-.about {
-  
-  max-width: 700px;
-  margin: auto; 
-  font-size:20px;
-  border: black;
-  border-width: thick;
-  border-style: solid;
-  padding: 20px;
-}
+
 
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+  {{ plot_script | indent(8) }}
+  <meta charset="utf-8">
+  <title>The Goodreads Classics</title>
+
+  {{ bokeh_css  }}
+  {{ bokeh_js }}
+
+</head>
+
+<body>
+
+  <h1 class='header'> The Goodreads "Classics" </h1>
+  <p class="content" align="center">
+    *Scroll to zoom <br>
+    *Drag to pan <br>
+    *Search for specific titles and authors below<br>
+    *Click to reset <br>
+
+  </p>
+  <br>
+
+  {{ plot_div|indent(8) }}
+
+  <br>
+  <br>
+  <hr>
+  <hr>
+  <br>
+  <div class="content">
+    <p align="center"> About This Plot </p>
+    <p>This plot displays the most popular "classic" literary texts according to <a href="https://www.goodreads.com/genres/classics"> Goodreads users </a>. The X-axis displays the publication date of the classic text. The Y-axis displays how many
+      Goodreads ratings the classic text has received</p>
+    <p>
+      <ul>
+        <li>Blue points represent books that were tagged as a classic by Goodreads users <a href="https://www.goodreads.com/shelf/show/classics">the most number of times</a></li>
+        <li>Yellow points represent books that were tagged as a classic and <a href="https://www.goodreads.com/genres/most_read/classics">"most read"</a> by Goodreads users in September 2019</li>
+        <li>Red points represent books that were tagged as a classic the most number of times and most read in September 2019</li>
+      </ul>
+    </p>
+
+    <p>You can hover over each point to see more information about the text. You can also search and highlight texts by typing in the name of the text or author in the search box above.*Note that you need to type in the full name of the title or author, e.g., <i>The Adventures of Huckleberry Finn</i> as opposed to <i>Huckleberry Finn</i>
+    </p>
+    <p>You can explore more Goodreads classics data visualizations at <a href=https://melaniewalsh.github.io/Goodreads-Classics>https://melaniewalsh.github.io/Goodreads-Classics </a> </p> <br>
+
+  </div>
+  </div>
+</body>
+
+
+</html>
