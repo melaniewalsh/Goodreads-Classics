@@ -1,6 +1,6 @@
 
 // set the dimensions and margins of the graph
-var margin = {top: 250, right: 400, bottom: 100, left: 360},
+var margin = {top: 250, right: 420, bottom: 100, left: 360},
   width = 1300 - margin.left - margin.right,
   height = 1200 - margin.top - margin.bottom;
 
@@ -71,6 +71,7 @@ d3.csv("data/Goodreads-Topics-By-Book-Cluster.csv", function(data) {
     .style("padding", "5px")
     .style("word-break", "break-word")
     .style("max-width", "400px")
+    .style("color", "black")
 
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {

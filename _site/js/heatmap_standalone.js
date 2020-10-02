@@ -1,15 +1,15 @@
 
 // set the dimensions and margins of the graph
-var margin = {top: 250, right: 420, bottom: 100, left: 360},
-  width = 1300 - margin.left - margin.right,
-  height = 1200 - margin.top - margin.bottom;
+var margin = {top: 250, right: 300, bottom: 100, left: 360},
+  width = 1200 - margin.left - margin.right,
+  height = 1100 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
 .append("svg")
-  //.attr("width", width + margin.left + margin.right)
-  //.attr("height", height + margin.top + margin.bottom)
-  .attr("viewBox", `0 0 1000 1200`)
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  //.attr("viewBox", `0 0 1000 1200`)
 .append("g")
   .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
@@ -28,7 +28,7 @@ d3.csv("data/Goodreads-Topics-By-Book-Cluster.csv", function(data) {
     .domain(myClassics)
     .padding(0.05);
   svg.append("g")
-    .style("font-size", 20)
+    .style("font-size", 15)
 .style("font-family", "Open Sans")
 .style("font-weight", "500")
     //.attr("transform", "rotate(-65)")
@@ -47,7 +47,7 @@ d3.csv("data/Goodreads-Topics-By-Book-Cluster.csv", function(data) {
     .domain(myTopics)
     .padding(0.05);
   svg.append("g")
-    .style("font-size", 20)
+    .style("font-size", 15)
     .style("font-family", "Open Sans")
     .style("font-weight", "500")
 
@@ -71,7 +71,7 @@ d3.csv("data/Goodreads-Topics-By-Book-Cluster.csv", function(data) {
     .style("padding", "5px")
     .style("word-break", "break-word")
     .style("max-width", "400px")
-    .style("color", "black")
+    .style("font-family", "Open Sans")
 
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {

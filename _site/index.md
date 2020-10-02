@@ -1,10 +1,10 @@
 # The Goodreads Classics
 
 
-- [Classic Category (Most Tagged vs Most Read)](Goodreads-Classics-Category.html)
+- [**Which books are "classics" according to Goodreads users?**](Goodreads-Classics-Category.html)
 
-- [Average Star Rating](Goodreads-Classics-Ratings.html)
+- [**Which "classic" books do Goodreads users love and hate?**](Goodreads-Classics-Ratings.html)
 
-- [Topics Discussed in Reviews](Goodreads-Classics-Topics.html)
+- [**What do Goodreads users talk about in their reviews of "classic" books"?**](Goodreads-Classics-Topics.html)
 
 

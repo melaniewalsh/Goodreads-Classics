@@ -4,7 +4,7 @@ layout: default
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-# The Goodreads Classics By Topic
+# **What do Goodreads users talk about in their reviews of "classic" books?**
 
 This heatmap represents the probability that Goodreads reviews for a given <a href="https://www.goodreads.com/genres/classics">classic</a> would discuss or contain one of the 30 topics on the left. These topics were produced by topic
       modeling 120,000 Goodreads reviews of classic books.
