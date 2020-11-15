@@ -323,3 +323,5 @@ a:hover { text-decoration: underline; }
 .bk-tooltip { font-size: 200px; }
 
 iframe { display: block; }
+
+#page-wrap { width: 800px; margin: 0 auto; }
