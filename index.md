@@ -1,8 +1,8 @@
-This website hosts data visualizations related to Melanie Walsh and Maria Antoniak's essay, "The Goodreads 'Classics': A Computational Study of Readers, Amazon, and Crowdsourced Literary Criticism."
+This website hosts data visualizations related to Melanie Walsh and Maria Antoniak's essay, "The Goodreads 'Classics': A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism."
 
 ## **What books are "classics" according to Goodreads users?**
 <figure>
-<a href= "Goodreads-Classics-Table.html"><img src="assets/images/table.png" alt="" width="500"></a>
+<a href= "Goodreads-Classics-Table.html"><img src="assets/images/updated-table.png" alt="" width="500"></a>
 <figcaption> <a href="Goodreads-Classics-Table.html"> Explore a sortable table </a> </figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ This website hosts data visualizations related to Melanie Walsh and Maria Antoni
 
 ## **How can I collect Goodreads data for myself?**
   
-Check out [Goodreads Scraper](https://github.com/maria-antoniak/goodreads-scraper), Python scripts that we used to collect Goodreads metadata and reviews 
+Check out [Goodreads Scraper](https://github.com/maria-antoniak/goodreads-scraper), Python scripts that we used to collect Goodreads metadata and reviews.
 
 
   

@@ -5,8 +5,8 @@ layout: default
 # **What books are "classics" according to Goodreads users?**
 
 
-<iframe width="100%" height="1000" frameborder="0"
-  src="https://observablehq.com/embed/@mellymeldubs/the-goodreads-classics-sortable-table?cell=viewof+inst_search&cell=date_report&cell=goodreads_table"></iframe>
+<iframe width="120%" height="1300" frameborder="0" scrolling="no" overflow="hidden"
+  src="https://observablehq.com/embed/@mellymeldubs/the-goodreads-classics-sortable-table/2?cells=date_report%2Cviewof+search%2Cgoodreads_table"></iframe>
   
 ## About This Plot
 
