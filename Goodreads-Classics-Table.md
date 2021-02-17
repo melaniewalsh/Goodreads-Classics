@@ -6,7 +6,7 @@ layout: default
 
 
 <iframe width="120%" height="1300" frameborder="0" scrolling="no" overflow="hidden"
-  src="https://observablehq.com/embed/@mellymeldubs/the-goodreads-classics-sortable-table/2?cells=date_report%2Cviewof+search%2Cgoodreads_table"></iframe>
+  src="https://observablehq.com/embed/@mellymeldubs/the-goodreads-classics-sortable-table/2?cells=loading%2Cprogress%2Csearch_by%2Cviewof+search%2Cgoodreads_table"></iframe>
   
 ## About This Plot
 
