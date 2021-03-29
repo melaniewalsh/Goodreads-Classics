@@ -86,7 +86,7 @@ d3.csv("data/Goodreads-Topics-By-Book-Cluster.csv", function(data) {
   var mousemove = function(d) {
     tooltip
     //.attr("class", "word-wrap")
-      .html(`<b>Title:</b> <i>${d.Classics}</i> <br> <b>Topic:</b> ${d.Topics} <br>  <b>Topic Probability:</b> ${d3.format(".2f")(d.value)} <br><br><b>Topic Words:</b> ${d['Topic Words']}`)
+      .html(`<b>Title:</b> <i>${d.Classics}</i> <br> <b>Topic:</b> ${d.Topics} <br>  <b>Topic Probability (Normalized):</b> ${d3.format(".2f")(d.value)} <br><br><b>Topic Words:</b> ${d['Topic Words']}`)
       //.style("left", (d3.mouse(this)[0]+300) + "px")
       //.style("top", (d3.mouse(this)[1]+400) + "px")
       .style("left", (d3.event.pageX + 30) + "px")		
