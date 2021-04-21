@@ -3,7 +3,13 @@
   <title> The Goodreads Classics </title>
   <head>
     <meta name="theme-color" content="#ffffff">
-
+    {% if page.image %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  {% endif %}
     <link rel="icon" href="favicon.svg">
     <link rel="mask-icon" href="mask-icon.svg" color="#000000">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
