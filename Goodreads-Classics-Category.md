@@ -4,7 +4,7 @@ layout: default
 
 # **What books are "classics" according to Goodreads users?**
 
-Explore the 144 books that Goodreads users either tagged as a "classic" the most number of times or read the most as of 2019
+In the plot below, you can explore the 144 books that Goodreads users either tagged as a "classic" the [most number of times](https://www.goodreads.com/shelf/show/classics) or [read the most](https://www.goodreads.com/genres/most_read/classics) as of 2019. The reception statistics reflect Goodreads as of 2019.
 
 <iframe src="Goodreads-Classics-Plot.html" sandbox="allow-same-origin allow-scripts" width="110%"
     height="900"

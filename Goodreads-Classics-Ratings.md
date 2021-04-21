@@ -4,15 +4,20 @@ layout: default
 
 # **Which "classic" books do Goodreads users love and hate?**
 
-Explore the average Goodreads rating (1-5 stars ★) for the 144 books that Goodreads users either tagged as a "classic" the most number of times or read the most as of 2019 
+In the plot below, you can explore the average Goodreads rating (1-5 stars ★) for the 144 books that Goodreads users either tagged as a "classic" the [most number of times](https://www.goodreads.com/shelf/show/classics) in the site's history or [read the most](https://www.goodreads.com/genres/most_read/classics) as of 2019. You can zoom in to examine books in more detail, or you can search to filter by author or title in the table below.
 
-\*Spoiler alert\*: Nobody likes *The Scarlet Letter*
+This data reflects current Goodreads statistics.
 
-<iframe width="100%" height="800" frameborder="0" overflow="hidden" scrolling="no"
-  src="https://observablehq.com/embed/@mellymeldubs/the-goodreads-classics-by-rating?cells=plot%2Cviewof+search%2Cgoodreads_table"></iframe>
+\*Spoiler alert\*: Nobody likes *The Scarlet Letter* 😔
+
+<br/>
+
+<iframe width="100%" height="900" frameborder="0" overflow="hidden" scrolling="no"
+  src="https://observablehq.com/embed/@mellymeldubs/the-goodreads-classics-by-rating?cells=loading%2Cprogress%2Cdate_report%2Cplot%2Cviewof+search%2Cgoodreads_table"></iframe>
+  
 ## About This Plot
 
-This plot displays the average Goodreads rating for "classic" literary texts according to <a href="https://www.goodreads.com/genres/classics"> Goodreads users </a>. You can scroll to zoom in and inspect the classics in more detail.
+This plot displays the average Goodreads rating for "classic" literary texts according to <a href="https://www.goodreads.com/genres/classics"> Goodreads users</a>. You can scroll to zoom in and inspect the classics in more detail.
 
 The colors represent the average Goodreads rating (1-5 stars ★) for each text.
 

@@ -1,4 +1,10 @@
-This website hosts data visualizations related to Melanie Walsh and Maria Antoniak's essay, "The Goodreads 'Classics': A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism."
+By [Melanie Walsh](https://melaniewalsh.org/) and [Maria Antoniak](https://maria-antoniak.github.io/)
+
+Why do Goodreads users love and love to hate the "classics" ? Which books are "classics" according to millions of readers? Why does Amazon seem to care about the classics, too?
+
+We explore these questions and more in our essay, ["The Goodreads 'Classics': A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism,"](https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/) in which we analyze more than 120,000 user reviews.
+
+This website hosts interactive versions of some of the data visualizations featured in our essay — as well as a few bonus visualizations 🎉 We hope you have fun exploring and taking a data-driven view of the "classics."
 
 ## **What books are "classics" according to Goodreads users?**
 <a href="Goodreads-Classics-Table.html"> Explore a sortable table: </a> 
